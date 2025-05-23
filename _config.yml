@@ -1,0 +1,30 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Hello there
+email: sslegend509@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Hello all, I am Suchit and I am simple guy exploring the world out there and looking to have fun out there.
+  BTW I can Code and have somewhat good eye for asthetics.
+baseurl: "ilegend509" # the subpath of your site, e.g. /blog
+url: "https://ilegend.site" # the base hostname & protocol for your site
+twitter_username: Suchit509 
+github_username:  IamLegend509
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Third-party services
+# just leave someone empty to disable it
+# google_analytics: 
+disqus_shortname:
+
+# used this for post_excerpt at index_page
+excerpt_separator: <!--description-->
