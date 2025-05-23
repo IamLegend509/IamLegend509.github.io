@@ -12,7 +12,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Hello all, I am Suchit and I am simple guy exploring the world out there and looking to have fun out there.
   BTW I can Code and have somewhat good eye for asthetics.
 baseurl: "/jekyll-simple" # the subpath of your site, e.g. /blog
-url: "http://wildflame.me" # the base hostname & protocol for your site
+url: "http://wildflame.me"  # the base hostname & protocol for your site
 twitter_username: Suchit509 
 github_username:  IamLegend509
 
