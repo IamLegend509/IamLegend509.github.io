@@ -11,4 +11,4 @@ description: There is where I tell what's going on with me.
     I go out for run sometimes and just wander.
     My friends like to call me somewhat of a Prankster and I like it :)
 
-Also I am currently member of [SRA-VJT](https://sravjti.in/) so check out their [Insta](https://www.instagram.com/sra_vjti/) page.
+Also I am currently member of [SRA-VJTI](https://sravjti.in/) so check out their [Insta](https://www.instagram.com/sra_vjti/) page.
