@@ -8,6 +8,16 @@
           {% include header.html %}
         </div>
 
+<body>
+  <div class="theme-toggle-container">
+    <label class="theme-switch">
+      <input type="checkbox" id="dark-mode-toggle" />
+      <span class="slider"></span>
+    </label>
+  </div>
+  <script src="{{ '/assets/js/theme-toggle.js' | relative_url }}"></script>
+</body>
+
         <div class="nine columns" style="z-index:100;">
           <div class="wrapper">
             {{ content }}
