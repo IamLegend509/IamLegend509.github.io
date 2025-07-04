@@ -7,8 +7,10 @@ permalink: /about/
 <span style="font-weight: 1000; color:rgba(100, 100, 255, 0.85);font-size: 1.2em;">**Hey all!!**</span>
 <br>
 I am a simple guy pursuing B.Tech in Electrical Engineering.
-I like to explore thing and getting to know different people. I run, I code and I edit stuff.
-<br>
+I like to explore thing and getting to know different people. 
+#### I run, I code and I edit stuff. 
+#### Also I somewhat have a good eye for asthetics ;)
+
 I like to have fun conversations with my friends and I am trying to evolve.
 <br>
 ---

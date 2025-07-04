@@ -1,1 +1,16 @@
 <a href="https://x.com/{{ include.username }}"><span class="icon icon--twitter">{% include icon-twitter.svg %}</span></a>
+<style>
+  /* You might need to make this more specific if other .icon--github elements exist */
+  .icon--twitter {
+      display: inline-block;
+      width: 44px;  /* Adjust this value for your desired size */
+      height: 44px; /* Maintain aspect ratio */
+      vertical-align: middle;
+  }
+
+  .icon--twitter svg {
+      width: 100%; /* Make the SVG fill its parent container */
+      height: 100%;
+      fill: currentColor; /* Optional: Make SVG color inherit text color */
+  }
+</style>
