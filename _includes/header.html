@@ -20,9 +20,22 @@
           <li><a href="{{ "/" | prepend: site.baseurl }}">Home</a></li>
           <li><a href="{{ "/archive" | prepend: site.baseurl }}">Posts</a></li>
           <li><a href="{{ "/about" | prepend: site.baseurl }}">About</a></li>
+          <li><a href="javascript:void(0)" onclick="toggleSuggestBox()">Suggest</a></li>
         </ul>
       </nav>
     </div>
 
   </div>
 </header>
+
+<!-- Suggestion Box -->
+<div id="suggest-box" class="hidden">
+  <div>
+    <textarea id="suggestion-input" placeholder="Type your suggestion..."></textarea>
+    <span onclick="submitSuggestion()" class="suggest-send-btn">Send</span>
+  </div>
+  <p id="submit-status" class="hidden">Submitted!</p>
+</div>
+
+<link rel="stylesheet" href="{{ '/_scss/suggest.scss' | relative_url }}">
+<script src="{{ '/assets/js/suggest.js' | relative_url }}"></script>

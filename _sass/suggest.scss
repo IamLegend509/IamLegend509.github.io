@@ -1,0 +1,32 @@
+/* _assets/css/suggest.scss */
+
+#suggest-box {
+  margin: 1rem auto;
+  max-width: 600px;
+}
+
+#suggestion-input {
+  width: 100%;
+  padding: 0.5em;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  margin-bottom: 0.5em;
+}
+
+#submit-status {
+  font-size: 0.9rem;
+  margin-top: 0.25em;
+}
+
+.suggest-send-btn {
+  all: unset;
+  cursor: pointer;
+  color: inherit;
+  text-decoration: underline;
+}
+
+.hidden {
+  display: none;
+}
